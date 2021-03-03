@@ -1,1 +1,2 @@
-print("error Access-Control-Allow-Origin (origen CORS)")
+if __name__ == '__main__':
+    print("hola, planeta");
