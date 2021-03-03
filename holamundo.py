@@ -1,1 +1,1 @@
-print("error Access-Control-Allow-Origin (origen CORS)");
+print("error Access-Control-Allow-Origin (origen CORS)")
