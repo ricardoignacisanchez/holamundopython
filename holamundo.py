@@ -1,6 +1,8 @@
 
-from libreria import metodo_auxiliar, funcion, metodo_auxiliar_posterior
+
+from libreria import metodo_auxiliar, funcion, metodo_auxiliar_posterior, terror
 from autenticacion import autenticar_usuario
+
 
 def patata():
     print('e'*1000000*5)
@@ -17,9 +19,9 @@ if __name__ == '__main__':
     metodo_ricardo()
     metodo_auxiliar()
     funcion()
+    terror()
     metodo_auxiliar_posterior()
     if autenticar_usuario('pepe', 'test'):
         print("pepe puede entrar")
     else:
         print("pepe no puede entrar")
-
