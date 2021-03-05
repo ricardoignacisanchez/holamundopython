@@ -8,9 +8,12 @@ def patata():
 def metodo_ricardo():
     print("método ricardo")
 
+def here(name):
+    print(name,'esta dentro')
+
 if __name__ == '__main__':
     print("hola, planeta")
-    patata()
+    patata() 
     metodo_ricardo()
     metodo_auxiliar()
     funcion()
