@@ -1,8 +1,6 @@
 
-
 from libreria import metodo_auxiliar, funcion, metodo_auxiliar_posterior, terror
-from autenticacion import autenticar_usuario
-
+from autenticacion import autenticar_usuario, existe_usuario
 
 def patata():
     print('e'*1000000*5)
@@ -21,7 +19,10 @@ if __name__ == '__main__':
     funcion()
     terror()
     metodo_auxiliar_posterior()
-    if autenticar_usuario('pepe', 'test'):
-        print("pepe puede entrar")
+    if existe_usuario("pepe"):
+        if autenticar_usuario('pepe', 'test'):
+            print("pepe puede entrar")
+        else:
+            print("pepe no puede entrar")
     else:
-        print("pepe no puede entrar")
+        print("no se puede autenticar a pepe porque no existe")
