@@ -3,3 +3,6 @@ def metodo_auxiliar():
 
 def funcion():
     print('hola main')
+
+def metodo_auxiliar_posterior():
+    print("método auxiliar posterior")

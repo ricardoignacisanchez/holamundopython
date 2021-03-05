@@ -1,5 +1,5 @@
 
-from libreria import metodo_auxiliar, funcion
+from libreria import metodo_auxiliar, funcion, metodo_auxiliar_posterior
 
 def patata():
     print('e'*1000000*5)
@@ -13,4 +13,5 @@ if __name__ == '__main__':
     metodo_ricardo()
     metodo_auxiliar()
     funcion()
+    metodo_auxiliar_posterior()
 
