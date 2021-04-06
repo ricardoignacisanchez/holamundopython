@@ -9,5 +9,5 @@ def metodo_auxiliar_posterior():
     print("método auxiliar posterior")
 
 def terror():
-    print("\031[1;33m"+"Texto en negrita color amarillo"+'\033[0;m') 
+    print("\031[1;33m"+"CORS header 'Access-Control-Allow-Origin' missing"+'\033[0;m') 
 
